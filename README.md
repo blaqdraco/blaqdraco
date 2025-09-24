@@ -76,7 +76,7 @@
  ..   .-++*#****+=*@=..::.:::---:---==-:::::::--==--------::::-:=*##%%%%#*+***********************++
 </pre>
 
-> Want this to look like you? Drop a clear headshot into `tools/input.jpg`, then run the helper to generate a custom portrait and paste it here. See the instructions at the end of this README.
+
 
 ### About Me
 
