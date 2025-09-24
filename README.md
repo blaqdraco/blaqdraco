@@ -1,33 +1,7 @@
 # Hi, I'm Blaq Draco 👋
 
 <pre>
-...::.:::......:.....::::....-:...:-:.:-:...:-....:-::::...-=-:..----.....-:=-:.......:==:.......:-:
 
-#
-
-
-.   :: .:. ..   .  ..::::.   .-:   :-. :-.   -:    :-..::  .==-. :===:    -.-+=.       .==         .
-::   .:..:. .:  ..  ..::--    .-.   -=. --    --    --:.--. .++=. :+==: ..-. -*=...     .==.        
- ::.   :..:. .:   .  :.:-=:    .-.  .==..=-   .=:   .==:.==: .**+. :++=. .=.. -*=...      -+.       
-:.:-.  .-. :. ::   ...:.:+=.    :-.  :+-.-+:   .=-   :+=:.+*=.:*#+. :+*- .=  ..-#-   ..    -+.      
---.:-.  .=: ...:.   ::.:.=*-     :-:  -*-.=+:   :+-   -*+:.+#+.:#%+. .**: :.   .-#: . ...   -=.     
-.-=:.:.  .=: :. ..  .--::.#+.     -=:  =#=:++.   :*-  .+#*: +%+.:#@=  :#*. ..... -#.... ..   .      
-=:-=: ::  .=:......  :=-:.=%=      =+: .*#-:#+.   =#=  .*@*. =@*.:%@-  :@+....... -=..              
-.---=: :-  :=:  ..... :+-..##:     .*+. .#%-+%+....*@=. .#@+  -@*.:%@:. +@+..........               
-  :::=: :=::.-:  ....  :+: -#+      :#+. :%#-%@-.  .#@=  :%@=..:%+..%%...+@: ..  .....              
-   .::-: -+-. ::  ....  :=. +*-      -%=  -@#=@%:....#@-  :@@:..:#+..##. .#%   .    ....            
-    .:.::::=-. .:.  ...  -- :*+:   .  =%-. =@*+@#....:%@-  -@%....++:.+*. =*-     .  ....           
-.     :.::..-:..::.::::.:.-::**+-:::::.*%- .+@+*@=....:%@:..=@*....:=: ==  .-. .......              
-=.....:::::..--:...:..-:. .:.-**=.......*%-  *@=%@:....:@%...=@=..  .--         ...                 
--=..:...::::..::...::.:-::...:#++-.  .. :%%: .#@-@*   ..-@+   -@- ....=*:                           
-:-=. ... .:::. :-:..::.-:--...+#=*:      :@#. .%#=@- ..  =@=...-%- ....:+:                          
--::=:  .. .:::..:-:..:-.-:+-..-%==+.      -@*  :@+#%::... +@:.::-*=........                         
-::::=-...  .:-:: .::.:-::--*-..#*:++  ..   -@=. -@-@+.::::.*#....:+-::-:::....                      
-.-=-:=-::... .:::. ::.:-.:==*: =@-:#- ....  +@:..+%=%.....::#=...::::::-----:::::..                 
---:--:-:::......:-. .:.:-:-=++. %*.-*:   ....## .:*#*= ..   .+::::::..:::--==-::::::::..            
-=-:-:::-::......::-: .---:.+=*= +@=.++..  ...:%+ . *#+:::.   .- ..:-:.....:-=----:--------:.        
-:--:-:::-::.....::::::::.=::+=*-:@*-:*=....:  :%-. .+*:.::::       .::      .:-------:---=**+=:     
-----:-:.:--::.....::-:.::-=.-+=*.##*::*:..:::  -%-.:.=:    ...  .  . ...      ..:..-=+=:---+#%%%*-  
 :-::-=-.:---:....--:-::.--+=.=+=++%-* -+.:::.::.-* .::  .     .....:. -::...:. :..::-=++:.--:+##%@%=
 :--.--.:+::--..:--..:--..==*-:+==+%:-+:*: .::....=: ............ .... .-....:..:::--::--+-...::--=#%
 =--:-=---:--=:::....:-=-.:=++:-*-=*+:==-*  ..:   :...::-::.    ........::...:...:.:::.:.:--:..:=---=
@@ -119,51 +93,3 @@ I'm a software engineer and trader passionate about coding, trading, and buildin
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Blaqdraco4PF)  
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://imanikirenga.vercel.app/)
 
----
-
-*This README updates automatically daily via GitHub Actions*
-
----
-
-### 🖼️ How to generate an ASCII portrait of you
-
-1) Put your photo at `tools/input.jpg` (front-facing, good lighting works best).
-2) Install Pillow once in your environment, then run the generator to produce text art.
-
-PowerShell (Windows):
-
-```powershell
-python -m pip install --user pillow
-python .\tools\asciiify.py .\tools\input.jpg .\tools\ascii-portrait.txt 80
-```
-
-3) Open `tools/ascii-portrait.txt`, copy its contents, and replace the text inside the `<pre> ... </pre>` block near the top of this README.
-
-Tip: Try different widths like 70–100 for more detail vs. width.
-
----
-
-### 🎨 Generate colored SVG styles
-
-Neon (dark theme):
-
-```powershell
-python .\tools\ascii_to_svg.py .\tools\ascii-portrait.txt .\assets\portrait-neon.svg --theme neon --stroke-width 0.6 --animate
-```
-
-Arsenal (red→gold on navy):
-
-```powershell
-python .\tools\ascii_to_svg.py .\tools\ascii-portrait.txt .\assets\portrait-arsenal.svg --theme arsenal --stroke-width 0.5
-```
-
-Other presets you can try:
-- Matrix: `--theme matrix`
-- Sunset: `--theme sunset`
-- Gold: `--theme gold`
-
-You can also customize colors directly:
-
-```powershell
-python .\tools\ascii_to_svg.py .\tools\ascii-portrait.txt .\assets\portrait-custom.svg --fg "#00FFC6" --bg "#0A0B0F" --stroke "#001b2a" --stroke-width 0.6
-```
