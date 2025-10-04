@@ -81,7 +81,7 @@ I'm a software engineer and trader passionate about coding, trading, and buildin
 
 ### 📊 GitHub Stats
 
-![Blaq Draco's GitHub stats](https://github-readme-stats.vercel.app/api?username=blaqdraco&show_icons=true&theme=radical)
+
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=blaqdraco&layout=compact&theme=radical)
 
